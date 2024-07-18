@@ -30,8 +30,4 @@
     <Resource Include="Images\table.jpg" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
-
 </Project>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\WpfApp\App.xaml
-4-1849558396
+759555880
 
-9653663850
+12-1002201736
 2521009324899
-LoginWindow.xaml;MainWindow.xaml;MessageBoxCustom.xaml;PersonalProfileWindow.xaml;
+DrinkWindow.xaml;EmployeeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;MessageBoxCustom.xaml;PersonalProfileWindow.xaml;ReportWindow.xaml;
 
 True
 

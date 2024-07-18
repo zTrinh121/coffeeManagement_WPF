@@ -92,32 +92,6 @@ namespace WpfApp
 
         #endregion
 
-        #region load_drinkCategory
-
-        //public ObservableCollection<DrinkCategory> DrinkCategories
-        //{
-        //    get => drinkCategories;
-        //    set
-        //    {
-        //        drinkCategories = value;
-        //        OnPropertyChanged();
-        //    }
-        //}
-
-        //public async void LoadDrinkCategory()
-        //{
-        //    DrinkCategories = new ObservableCollection<DrinkCategory>(await categoryRepository.GetDrinkCategories());
-        //    cboDrinkCategory.ItemsSource = DrinkCategories;
-        //    cboDrinkCategory.DisplayMemberPath = "DrinkCategoryName";
-        //    cboDrinkCategory.SelectedValuePath = "DrinkCategoryId";
-        //}
-        //private void cboDrinkCategory_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        //{
-
-        //}
-
-        #endregion
-
         #region load_drink
         public ObservableCollection<Drink> Drinks
         {
@@ -142,7 +116,7 @@ namespace WpfApp
         {
             if (cboTable.SelectedItem == null)
             {
-                new MessageBoxCustom("Table choice is empty", MessageType.Warning, MessageButtons.Ok).ShowDialog();
+                new MessageBoxCustom("Bàn bị trống", MessageType.Warning, MessageButtons.Ok).ShowDialog();
                 return;
             }
 
@@ -218,6 +192,7 @@ namespace WpfApp
 
         #endregion
 
+        #region bill_info_View
         public ObservableCollection<BillInfo> BillInfoCollection
         {
             get { return _billInfoCollection; }
@@ -228,29 +203,7 @@ namespace WpfApp
             }
         }
 
-        private async void DeleteButton_Click(object sender, RoutedEventArgs e)
-        {
-            Button button = (Button)sender;
-            BillInfo billInfo = (BillInfo)button.DataContext;
-            if (billInfo != null)
-            {
-                try
-                {
-                    await billInfoRepository.DeleteBillInfo(billInfo);
-                    new MessageBoxCustom("Xóa đồ uống thành công", MessageType.Confirmation, MessageButtons.Ok).ShowDialog();
-
-                }
-                catch (Exception ex)
-                {
-                    // Handle exceptions (e.g., log or show error message)
-                    MessageBox.Show($"Error deleting item from database: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
-                finally
-                {
-                    showBill(currentTableId);
-                }
-            }
-        }
+        
 
         private async void ViewBill_Click(object sender, RoutedEventArgs e)
         {
@@ -292,6 +245,10 @@ namespace WpfApp
                 bool? result = new MessageBoxCustom("Hóa đơn trống", MessageType.Confirmation, MessageButtons.Ok).ShowDialog();
             }
         }
+
+        #endregion
+
+        #region drinkAddDelleteBill
 
         private async void btnAddDrink_Click(object sender, RoutedEventArgs e)
         {
@@ -354,6 +311,34 @@ namespace WpfApp
 
         }
 
+        private async void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            BillInfo billInfo = (BillInfo)button.DataContext;
+            if (billInfo != null)
+            {
+                try
+                {
+                    await billInfoRepository.DeleteBillInfo(billInfo);
+                    new MessageBoxCustom("Xóa đồ uống thành công", MessageType.Confirmation, MessageButtons.Ok).ShowDialog();
+
+                }
+                catch (Exception ex)
+                {
+                    // Handle exceptions (e.g., log or show error message)
+                    MessageBox.Show($"Error deleting item from database: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                finally
+                {
+                    showBill(currentTableId);
+                }
+            }
+        }
+
+        #endregion
+
+        #region pay
+
         private async void btnPay_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -384,9 +369,9 @@ namespace WpfApp
             {
                 bool? result = new MessageBoxCustom("Pay fail", MessageType.Warning, MessageButtons.Ok).ShowDialog();
             }
-
-
         }
+
+        #endregion
 
 
         private async void Window_Loaded(object sender, RoutedEventArgs e)
@@ -407,7 +392,9 @@ namespace WpfApp
 
         private void btnDrinkView_Click(object sender, RoutedEventArgs e)
         {
-
+            DrinkWindow drinkViewWindow = new DrinkWindow(account);
+            drinkViewWindow.Show();
+            this.Close();
         }
 
         private void btnDrinkCategory_Click(object sender, RoutedEventArgs e)
@@ -438,6 +425,7 @@ namespace WpfApp
         private void mnPersonal_Click(object sender, RoutedEventArgs e)
         {
             PersonalProfileWindow personallProfileWindow = new PersonalProfileWindow(account);
+            personallProfileWindow.Show();
             this.Close();
 
         }
@@ -463,7 +451,6 @@ namespace WpfApp
         }
 
 
-
         #region property changed
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -473,11 +460,9 @@ namespace WpfApp
         }
 
 
-
-
         #endregion
 
-        #region sidebar_btn
+        #region common_button
         private void logout_Click(object sender, RoutedEventArgs e)
         {
             bool? result = new MessageBoxCustom("Bạn có muốn thoát khỏi chương trình", MessageType.Confirmation, MessageButtons.YesNo).ShowDialog();
@@ -487,21 +472,26 @@ namespace WpfApp
             }
         }
 
-        #endregion
-
         private void drink_Click(object sender, RoutedEventArgs e)
         {
-
+            new DrinkWindow(account).Show();
+            this.Close();
         }
 
         private void report_Click(object sender, RoutedEventArgs e)
         {
-
+            new ReportWindow(account).Show();
+            this.Close();
         }
 
         private void employee_Click(object sender, RoutedEventArgs e)
         {
-
+            new EmployeeWindow(account).Show();
+            this.Close();
         }
+
+        #endregion
+
+
     }
 }

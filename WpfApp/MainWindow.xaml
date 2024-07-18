@@ -6,8 +6,6 @@
         xmlns:local="clr-namespace:WpfApp"
          WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-
         TextElement.Foreground="{DynamicResource MaterialDesign.Brush.Foreground}"
         Background="White"
         TextElement.FontWeight="Medium"
@@ -41,9 +39,9 @@
             <StackPanel Width="87" Height="649" Orientation="Horizontal" HorizontalAlignment="Left">
                 <materialDesign:Card Margin="10" UniformCornerRadius="15">
                     <ListView Margin="0 15">
-                        <ListViewItem HorizontalAlignment="Center" Margin="0 10" Background="#FFE3E3E3">
+                        <ListViewItem HorizontalAlignment="Center" Margin="0 10" >
                             <Button x:Name="menu" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
-                             BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                             BorderBrush="{x:Null}" Background="#FFE3E3E3" Foreground="Black">
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="Silverware"/>
                                 </StackPanel>
