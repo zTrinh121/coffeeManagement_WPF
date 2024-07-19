@@ -4,13 +4,19 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
     public class DrinkDAO : SingletonBase<DrinkDAO>
     {
+        private readonly QuanLyQuanCafeContext _context;
+
+        public DrinkDAO()
+        {
+            _context = new QuanLyQuanCafeContext();
+        }
+
         public async Task<Drink> GetDrink(int drinkId)
         {
             Drink drink;
@@ -34,36 +40,38 @@ namespace DataAccessLayer
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                throw new Exception("An error occurred while saving the entity changes.", ex);
             }
         }
 
+
+
         public async Task<IEnumerable<Drink>> GetDrinks()
         {
-            List<Drink> Drink;
+            List<Drink> drinks;
             try
             {
-                Drink = await _context.Drinks.Include(x => x.IdCategoryNavigation).ToListAsync();
+                drinks = await _context.Drinks.Include(x => x.IdCategoryNavigation).ToListAsync();
             }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
             }
-            return Drink;
+            return drinks;
         }
 
         public async Task<IEnumerable<Drink>> GetDrinksByCategoryId(int categoryId)
         {
-            List<Drink> Drink;
+            List<Drink> drinks;
             try
             {
-                Drink = await _context.Drinks.Include(x => x.IdCategoryNavigation).Where(x => x.IdCategory == categoryId).ToListAsync();
+                drinks = await _context.Drinks.Include(x => x.IdCategoryNavigation).Where(x => x.IdCategory == categoryId).ToListAsync();
             }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
             }
-            return Drink;
+            return drinks;
         }
 
         public async Task UpdateDrink(Drink drink)
@@ -92,5 +100,4 @@ namespace DataAccessLayer
             }
         }
     }
-
 }

@@ -1,4 +1,5 @@
 ﻿using BusinessObjects;
+using DataAccessLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.Win32;
 
 namespace WpfApp
 {
@@ -25,6 +27,7 @@ namespace WpfApp
         {
             InitializeComponent();
             this.account = account;
+            LoadDrinks();
         }
 
 
@@ -88,5 +91,96 @@ namespace WpfApp
         {
 
         }
+
+
+
+
+        private async void LoadDrinks()
+        {
+            try
+            {
+                var drinks = await DrinkDAO.Instance.GetDrinks();  // Giả sử DrinkDAO là class truy cập dữ liệu
+                lvDrinks.ItemsSource = drinks;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải danh sách đồ uống: " + ex.Message);
+            }
+        }
+
+
+
+        private async void UpdatePrice_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            int drinkId = (int)button.CommandParameter;
+            var drinkToUpdate = await DrinkDAO.Instance.GetDrink(drinkId);
+
+            var updateWindow = new UpdatePriceWindow();
+            if (updateWindow.ShowDialog() == true)
+            {
+                drinkToUpdate.Price = updateWindow.NewPrice;
+                await DrinkDAO.Instance.UpdateDrink(drinkToUpdate);
+                MessageBox.Show("Price updated successfully.");
+                LoadDrinks(); 
+            }
+        }
+
+        private async void DeleteDrink_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            int drinkId = (int)button.CommandParameter;
+            var drinkToDelete = await DrinkDAO.Instance.GetDrink(drinkId);
+
+            var confirmResult = MessageBox.Show("Are you sure you want to delete this drink?", "Confirm Delete", MessageBoxButton.YesNo);
+            if (confirmResult == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    await DrinkDAO.Instance.DeleteDrink(drinkToDelete);
+                    MessageBox.Show("Drink deleted successfully.");
+                    LoadDrinks(); 
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error deleting drink: " + ex.Message);
+                }
+            }
+        }
+
+        private async void AddDrink_Click(object sender, RoutedEventArgs e)
+        {
+            var addWindow = new AddDrinkWindow();
+            if (addWindow.ShowDialog() == true)
+            {
+                var newDrink = new Drink
+                {
+                    DrinkName = addWindow.DrinkName,
+                    Price = addWindow.Price,
+                    IdCategory = addWindow.CategoryId,
+                    Image = addWindow.ImagePath
+                };
+
+                try
+                {
+                    await DrinkDAO.Instance.InsertDrink(newDrink);
+                    MessageBox.Show("Thêm đồ uống thành công.");
+                    LoadDrinks();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi khi thêm đồ uống: " + ex.Message + "\nChi tiết lỗi: " + ex.InnerException?.Message + "\nInner Exception: " + ex.InnerException?.InnerException?.Message);
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+
     }
 }
