@@ -25,6 +25,8 @@ namespace WpfApp.ViewModel
         {
             ValidateProperty(username, nameof(Username));
             ValidateProperty(password, nameof(Password));
+            RemoveError(nameof(Username), "Invalid username or password.");
+            RemoveError(nameof(Password), "Invalid username or password.");
 
             if (!HasErrors)
             {
