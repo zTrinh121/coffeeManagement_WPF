@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\WpfApp\obj\Debug\net8.0-windows\
+D:\FPT\CN5\PRN212\project\coffeeManagement_WPF\WpfApp\obj\Debug\net8.0-windows\
 WpfApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\WpfApp\App.xaml
-759555880
+D:\FPT\CN5\PRN212\project\coffeeManagement_WPF\WpfApp\App.xaml
+91601186011
 
-12-1002201736
-2521009324899
-DrinkWindow.xaml;EmployeeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;MessageBoxCustom.xaml;PersonalProfileWindow.xaml;ReportWindow.xaml;
+15-1968351395
+252213907973
+AddDrinkWindow.xaml;DrinkWindow.xaml;EmployeeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;MessageBoxCustom.xaml;PersonalProfileWindow.xaml;ReportWindow.xaml;UpdatePriceWindow .xaml;
 
 False
 

@@ -3534,24 +3534,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FPT SHOP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\WpfApp\\WpfApp.csproj",
+      "projectUniqueName": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\WpfApp.csproj",
       "projectName": "WpfApp",
-      "projectPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\WpfApp\\WpfApp.csproj",
-      "packagesPath": "C:\\Users\\FPT SHOP\\.nuget\\packages\\",
-      "outputPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\WpfApp\\obj\\",
+      "projectPath": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\WpfApp.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\FPT SHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3559,17 +3554,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\BusinessObjects.csproj"
+            "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj"
             },
-            "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\Repositories\\Repositories.csproj"
+            "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\Repositories.csproj"
             }
           }
         }
@@ -3625,7 +3621,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
