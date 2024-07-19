@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="EmployeeWindow"        WindowStartupLocation="CenterScreen"
         Height="720" Width="1080"
+        
+        
+        
         WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesign.Brush.Foreground}"
@@ -15,6 +18,7 @@
         TextElement.FontSize="14"
         FontFamily="{materialDesign:MaterialDesignFont}"
         >
+    
     <Grid OpacityMask="White">
 
         <Button x:Name="CloseBtn" Click="CloseBtn_Click" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
@@ -48,7 +52,7 @@
                         </ListViewItem>
                         <ListViewItem HorizontalAlignment="Center" Margin="0" >
                             <Button x:Name="drink" Click="drink_Click"  Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
-                             BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                                 BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="Beer"/>
                                 </StackPanel>

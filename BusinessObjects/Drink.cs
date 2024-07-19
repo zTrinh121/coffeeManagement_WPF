@@ -15,6 +15,11 @@ public partial class Drink
 
     public string? Image { get; set; }
 
+    public string ImageUri
+    {
+        get { return Image; }
+    }
+
     public virtual ICollection<BillInfo> BillInfos { get; set; } = new List<BillInfo>();
 
     public virtual DrinkCategory IdCategoryNavigation { get; set; } = null!;
