@@ -120,7 +120,7 @@ namespace WpfApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfApp;component/drinkwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfApp;V1.0.0.0;component/drinkwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DrinkWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
