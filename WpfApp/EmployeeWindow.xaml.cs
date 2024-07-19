@@ -1,4 +1,5 @@
 ﻿using BusinessObjects;
+using DataAccessLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -61,9 +62,11 @@ namespace WpfApp
 
         private void drink_Click(object sender, RoutedEventArgs e)
         {
-            new DrinkWindow(account).Show();
-            this.Close();
+            DrinkWindow drinkWindow = new DrinkWindow(account);
+            drinkWindow.Show();
+            this.Hide(); // Sử dụng Hide() thay vì Close() để không đóng cửa sổ hiện tại ngay lập tức
         }
+
 
         private void report_Click(object sender, RoutedEventArgs e)
         {
@@ -79,6 +82,14 @@ namespace WpfApp
                 Application.Current.Shutdown();
             }
         }
+
+       
+
+
+       
+
+
+
 
         #endregion
     }

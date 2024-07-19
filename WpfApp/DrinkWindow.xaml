@@ -9,6 +9,7 @@
         WindowStartupLocation="CenterScreen"
         Height="720" Width="1080"
         WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True"
+        
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesign.Brush.Foreground}"
         Background="White"
@@ -16,6 +17,8 @@
         TextElement.FontSize="14"
         FontFamily="{materialDesign:MaterialDesignFont}"
         >
+    
+    
     <Grid OpacityMask="White">
 
         <Button x:Name="CloseBtn" Click="CloseBtn_Click" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
@@ -83,6 +86,35 @@
 
                 </materialDesign:Card>
             </StackPanel>
+
+
+            <ListView x:Name="lvDrinks">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Margin="10">
+                            <Image Source="{Binding Image}" Height="100" Width="100"/>
+                            <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                                <TextBlock Text="{Binding DrinkName}" FontWeight="Bold" />
+                                <TextBlock Text="{Binding Price, StringFormat='Price: {0:C}'}" />
+                                <TextBlock Text="{Binding IdCategoryNavigation.CategoryName}" />
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Content="Update Price" CommandParameter="{Binding DrinkId}" Click="UpdatePrice_Click" Margin="5"/>
+                                    <Button Content="Delete" CommandParameter="{Binding DrinkId}" Click="DeleteDrink_Click" Margin="5"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Content="Add Drink" Click="AddDrink_Click" Margin="10"/>
+
+
+
+
+
+
+
+
         </DockPanel>
 
 

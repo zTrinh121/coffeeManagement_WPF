@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿WpfApp
 
 
@@ -18,3 +19,25 @@ DrinkWindow.xaml;EmployeeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;MessageBox
 
 False
 
+=======
+﻿WpfApp
+
+
+winexe
+C#
+.cs
+D:\FPT\CN5\PRN212\project\coffeeManagement_WPF\WpfApp\obj\Debug\net8.0-windows\
+WpfApp
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\FPT\CN5\PRN212\project\coffeeManagement_WPF\WpfApp\App.xaml
+91601186011
+
+13-1173482657
+252213907973
+AddDrinkWindow.xaml;DrinkWindow.xaml;EmployeeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;MessageBoxCustom.xaml;PersonalProfileWindow.xaml;ReportWindow.xaml;UpdatePriceWindow .xaml;
+
+False
+
+>>>>>>> 2731ae0d66be90813c21745e3fee22408368f57f

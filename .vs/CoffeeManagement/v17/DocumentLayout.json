@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\",
@@ -124,4 +125,848 @@
       ]
     }
   ]
+=======
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\drinkwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\drinkwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\employeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\employeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\drinkwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\drinkwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\adddrinkwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\adddrinkwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\adddrinkwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\adddrinkwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\dataaccesslayer\\drinkdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\drinkdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\businessobjects\\quanlyquancafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\quanlyquancafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\businessobjects\\drinkcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\drinkcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\employeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\employeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\updatepricewindow .xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\updatepricewindow .xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\businessobjects\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\updatepricewindow .xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\updatepricewindow .xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\reportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\reportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\converters\\imagepathtoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\converters\\imagepathtoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\businessobjects\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\businessobjects\\businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\messageboxcustom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\messageboxcustom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\personalprofilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\personalprofilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\dataaccesslayer\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\personalprofilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\personalprofilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\messageboxcustom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\messageboxcustom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8A0832-1F61-423D-8EAC-E4BEAC920765}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\idrinkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\idrinkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\idrinkcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\idrinkcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\ibillinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ibillinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\drinkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\drinkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\drinkcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\drinkcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\repositories\\billinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B71234E-5DB7-472B-9C09-FED2BB7BFC95}|Repositories\\Repositories.csproj|solutionrelative:repositories\\billinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\dataaccesslayer\\tabledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\tabledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\dataaccesslayer\\singletonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\singletonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\dataaccesslayer\\billinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\billinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\dataaccesslayer\\drinkcategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\drinkcategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\dataaccesslayer\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEF56B2-9145-49BD-B1E9-6B6E15066A33}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\businessobjects\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\businessobjects\\billinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\billinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\businessobjects\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|d:\\fpt\\cn5\\prn212\\project\\coffeemanagement_wpf\\businessobjects\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81EEDFD-5749-431B-8C8F-02D705FA16DB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddDrinkWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\AddDrinkWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\AddDrinkWindow.xaml.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\AddDrinkWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\AddDrinkWindow.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:29:32.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddDrinkWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\AddDrinkWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\AddDrinkWindow.xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\AddDrinkWindow.xaml",
+              "RelativeToolTip": "WpfApp\\AddDrinkWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T11:29:29.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DrinkDAO.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\DrinkDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DrinkDAO.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\DrinkDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\DrinkDAO.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAD4vy0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:45:24.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DrinkWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\DrinkWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\DrinkWindow.xaml.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\DrinkWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\DrinkWindow.xaml.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAA0wKoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:04:06.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DrinkWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\DrinkWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\DrinkWindow.xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\DrinkWindow.xaml",
+              "RelativeToolTip": "WpfApp\\DrinkWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T13:54:13.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\EmployeeWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\EmployeeWindow.xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\EmployeeWindow.xaml",
+              "RelativeToolTip": "WpfApp\\EmployeeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T13:57:27.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuanLyQuanCafeContext.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\QuanLyQuanCafeContext.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\QuanLyQuanCafeContext.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\QuanLyQuanCafeContext.cs",
+              "RelativeToolTip": "BusinessObjects\\QuanLyQuanCafeContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwBYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:36:37.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DrinkCategory.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\DrinkCategory.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\DrinkCategory.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\DrinkCategory.cs",
+              "RelativeToolTip": "BusinessObjects\\DrinkCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:27:22.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\EmployeeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\EmployeeWindow.xaml.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\EmployeeWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\EmployeeWindow.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAIAwwDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T13:57:46.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdatePriceWindow .xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\UpdatePriceWindow .xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\UpdatePriceWindow .xaml.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\UpdatePriceWindow .xaml.cs",
+              "RelativeToolTip": "WpfApp\\UpdatePriceWindow .xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwCMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T10:42:04.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WpfApp.csproj",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\WpfApp.csproj",
+              "RelativeDocumentMoniker": "WpfApp\\WpfApp.csproj",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\WpfApp.csproj",
+              "RelativeToolTip": "WpfApp\\WpfApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-19T10:19:08.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdatePriceWindow .xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\UpdatePriceWindow .xaml",
+              "RelativeDocumentMoniker": "WpfApp\\UpdatePriceWindow .xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\UpdatePriceWindow .xaml",
+              "RelativeToolTip": "WpfApp\\UpdatePriceWindow .xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T10:41:50.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Drink.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\Drink.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Drink.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\Drink.cs",
+              "RelativeToolTip": "BusinessObjects\\Drink.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:06:02.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\LoginWindow.xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\LoginWindow.xaml",
+              "RelativeToolTip": "WpfApp\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T09:09:18.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\ReportWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ReportWindow.xaml.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\ReportWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\ReportWindow.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:02:52.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ImagePathToImageConverter.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\Converters\\ImagePathToImageConverter.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Converters\\ImagePathToImageConverter.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\Converters\\ImagePathToImageConverter.cs",
+              "RelativeToolTip": "WpfApp\\Converters\\ImagePathToImageConverter.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T10:19:12.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\appsettings.json",
+              "RelativeDocumentMoniker": "BusinessObjects\\appsettings.json",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\appsettings.json",
+              "RelativeToolTip": "BusinessObjects\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-19T07:36:36.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BusinessObjects.csproj",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj",
+              "RelativeDocumentMoniker": "BusinessObjects\\BusinessObjects.csproj",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj",
+              "RelativeToolTip": "BusinessObjects\\BusinessObjects.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-19T10:14:08.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:59:00.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T13:53:43.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MessageBoxCustom.xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\MessageBoxCustom.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\MessageBoxCustom.xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\MessageBoxCustom.xaml",
+              "RelativeToolTip": "WpfApp\\MessageBoxCustom.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T09:09:39.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PersonalProfileWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\PersonalProfileWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\PersonalProfileWindow.xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\PersonalProfileWindow.xaml",
+              "RelativeToolTip": "WpfApp\\PersonalProfileWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T09:10:27.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReportWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\ReportWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\ReportWindow.xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\ReportWindow.xaml",
+              "RelativeToolTip": "WpfApp\\ReportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T13:54:07.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AccountRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "Repositories\\AccountRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAowCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:07:13.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\AccountDAO.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\AccountDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\AccountDAO.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwFsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:45:07.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PersonalProfileWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\PersonalProfileWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\PersonalProfileWindow.xaml.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\PersonalProfileWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\PersonalProfileWindow.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:10:34.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\packages.config",
+              "RelativeDocumentMoniker": "WpfApp\\packages.config",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\packages.config",
+              "RelativeToolTip": "WpfApp\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-19T09:10:02.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MessageBoxCustom.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\MessageBoxCustom.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\MessageBoxCustom.xaml.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\MessageBoxCustom.xaml.cs",
+              "RelativeToolTip": "WpfApp\\MessageBoxCustom.xaml.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAgwIYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:10:03.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAALoBAAAAAAAAAAAkwPABAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T13:44:04.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WpfApp\\AssemblyInfo.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "WpfApp\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:45:31.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\App.xaml",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\WpfApp\\App.xaml",
+              "RelativeToolTip": "WpfApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T08:45:27.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TableRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\TableRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TableRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\TableRepository.cs",
+              "RelativeToolTip": "Repositories\\TableRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA3wDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:08:27.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ITableRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\ITableRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ITableRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\ITableRepository.cs",
+              "RelativeToolTip": "Repositories\\ITableRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:08:22.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IDrinkRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IDrinkRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDrinkRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IDrinkRepository.cs",
+              "RelativeToolTip": "Repositories\\IDrinkRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:08:18.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IDrinkCategoryRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IDrinkCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDrinkCategoryRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IDrinkCategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\IDrinkCategoryRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:08:08.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IBillRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IBillRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IBillRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IBillRepository.cs",
+              "RelativeToolTip": "Repositories\\IBillRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:08:03.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IBillInfoRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IBillInfoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IBillInfoRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IBillInfoRepository.cs",
+              "RelativeToolTip": "Repositories\\IBillInfoRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:07:58.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IAccountRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\IAccountRepository.cs",
+              "RelativeToolTip": "Repositories\\IAccountRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:07:50.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DrinkRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\DrinkRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DrinkRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\DrinkRepository.cs",
+              "RelativeToolTip": "Repositories\\DrinkRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA3wCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:07:42.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DrinkCategoryRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\DrinkCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DrinkCategoryRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\DrinkCategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\DrinkCategoryRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:07:37.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BillRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\BillRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BillRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\BillRepository.cs",
+              "RelativeToolTip": "Repositories\\BillRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA3wCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:07:30.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BillInfoRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\BillInfoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BillInfoRepository.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\Repositories\\BillInfoRepository.cs",
+              "RelativeToolTip": "Repositories\\BillInfoRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA3wCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:07:26.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TableDAO.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\TableDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\TableDAO.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\TableDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\TableDAO.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAA7wG4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:07:06.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SingletonBase.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\SingletonBase.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\SingletonBase.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\SingletonBase.cs",
+              "RelativeToolTip": "DataAccessLayer\\SingletonBase.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:06:59.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DrinkCategoryDAO.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\DrinkCategoryDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DrinkCategoryDAO.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\DrinkCategoryDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\DrinkCategoryDAO.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAkwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:06:35.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Table.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\Table.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Table.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\Table.cs",
+              "RelativeToolTip": "BusinessObjects\\Table.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:49:04.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "BillInfoDAO.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\BillInfoDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BillInfoDAO.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\BillInfoDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BillInfoDAO.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAkwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:45:21.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BillInfo.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\BillInfo.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\BillInfo.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\BillInfo.cs",
+              "RelativeToolTip": "BusinessObjects\\BillInfo.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:05:58.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\Bill.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Bill.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\Bill.cs",
+              "RelativeToolTip": "BusinessObjects\\Bill.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:05:23.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BillDAO.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\BillDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BillDAO.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\DataAccessLayer\\BillDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BillDAO.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAA7wGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:45:15.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\Account.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Account.cs",
+              "ToolTip": "D:\\FPT\\CN5\\PRN212\\project\\coffeeManagement_WPF\\BusinessObjects\\Account.cs",
+              "RelativeToolTip": "BusinessObjects\\Account.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:00:38.744Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+>>>>>>> 2731ae0d66be90813c21745e3fee22408368f57f
 }

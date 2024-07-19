@@ -77,6 +77,12 @@
   ],
   "logs": [
     {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\WpfApp\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+    },
+    {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,

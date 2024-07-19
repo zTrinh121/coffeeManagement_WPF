@@ -15,6 +15,8 @@ public partial class QuanLyQuanCafeContext : DbContext
     {
     }
 
+
+
     public virtual DbSet<Account> Accounts { get; set; }
 
     public virtual DbSet<Bill> Bills { get; set; }
@@ -29,7 +31,13 @@ public partial class QuanLyQuanCafeContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+<<<<<<< HEAD
         => optionsBuilder.UseSqlServer("Server=MTRINH\\SQL2019;Database= QuanLyQuanCafe;Integrated Security=True;TrustServerCertificate=True");
+=======
+        => optionsBuilder.UseSqlServer("Server=(local);uid=sa;pwd=123;database=QuanLyQuanCafe;Integrated Security=True;TrustServerCertificate=True");
+    // "Server=(local);uid=sa;pwd=123;database=QuanLyQuanCafe"
+
+>>>>>>> 2731ae0d66be90813c21745e3fee22408368f57f
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
