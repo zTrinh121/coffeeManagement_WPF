@@ -182,3 +182,6 @@ C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh
 C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\WpfApp\obj\Debug\net8.0-windows\EmployeeWindow.g.cs
 C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\WpfApp\obj\Debug\net8.0-windows\ReportWindow.baml
 C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\WpfApp\obj\Debug\net8.0-windows\EmployeeWindow.baml
+C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\WpfApp\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\WpfApp\bin\Debug\net8.0-windows\itextsharp.dll
+C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\WpfApp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

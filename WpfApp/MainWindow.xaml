@@ -150,6 +150,7 @@
                       SelectedValue="{Binding CurrentDrinkCategory.DrinkCategoryId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                       SelectionChanged="cboDrinkCategory_SelectionChanged" HorizontalAlignment="Left"/>-->
             <ComboBox x:Name="cboDrink"
+                      materialDesign:HintAssist.Hint="Đồ uống"
                       DisplayMemberPath="DrinkName"
                       SelectedValuePath="DrinkId"
                       SelectedValue="{Binding CurrentDrink.DrinkId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
@@ -166,4 +167,3 @@
     </Grid>
 
 </Window>
-

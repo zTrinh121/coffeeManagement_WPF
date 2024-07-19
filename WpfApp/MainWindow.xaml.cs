@@ -1,8 +1,11 @@
 ﻿using BusinessObjects;
+using iTextSharp.text.pdf;
+using iTextSharp.text;
 using Microsoft.EntityFrameworkCore;
 using Repositories;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Windows;
@@ -84,6 +87,10 @@ namespace WpfApp
             cboTable.ItemsSource = Tables;
             cboTable.DisplayMemberPath = "TableName";
             cboTable.SelectedValuePath = "TableId";
+            if (currentTable != null)
+            {
+                cboTable.SelectedValue = currentTable.TableId;
+            }
         }
 
         private void cboTable_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -166,6 +173,7 @@ namespace WpfApp
 
 
 
+
         private void cboDrink_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
@@ -242,7 +250,10 @@ namespace WpfApp
             }
             catch (Exception ex)
             {
-                bool? result = new MessageBoxCustom("Hóa đơn trống", MessageType.Confirmation, MessageButtons.Ok).ShowDialog();
+                
+                dgData.ItemsSource = null;
+                TotalBill = 0;
+                new MessageBoxCustom("Hóa đơn trống", MessageType.Confirmation, MessageButtons.Ok).ShowDialog();
             }
         }
 
@@ -274,6 +285,7 @@ namespace WpfApp
                         }
 
                         Bill billInserted = await billRepository.GetBillTableStatusPaid(currentTableId, 0);
+                        currentTable = table;
 
                         BillInfo newBillInfo = new BillInfo
                         {
@@ -283,22 +295,22 @@ namespace WpfApp
                         };
                         currentBillId = billInserted.BillId;
                         billInfoRepository.InsertBillInfo(newBillInfo);
-                        bool? result = new MessageBoxCustom("Thêm đồ uống thành công", MessageType.Confirmation, MessageButtons.Ok).ShowDialog();
+                        new MessageBoxCustom("Thêm đồ uống thành công", MessageType.Confirmation, MessageButtons.Ok).ShowDialog();
                         txtNumber.Text = string.Empty;
                     }
                     else
                     {
-                        bool? result = new MessageBoxCustom("Vui lòng điền số lượng đồ uống", MessageType.Warning, MessageButtons.Ok).ShowDialog();
+                        new MessageBoxCustom("Vui lòng điền số lượng đồ uống", MessageType.Warning, MessageButtons.Ok).ShowDialog();
                     }
                 }
                 else
                 {
-                    bool? result = new MessageBoxCustom("Vui lòng chọn giá trị hợp lệ", MessageType.Warning, MessageButtons.Ok).ShowDialog();
+                     new MessageBoxCustom("Vui lòng chọn giá trị hợp lệ", MessageType.Warning, MessageButtons.Ok).ShowDialog();
                 }
             }
             catch (Exception ex)
             {
-                bool? result = new MessageBoxCustom("Thêm đồ uống thất bại", MessageType.Warning, MessageButtons.Ok).ShowDialog();
+                 new MessageBoxCustom("Thêm đồ uống thất bại", MessageType.Warning, MessageButtons.Ok).ShowDialog();
             }
             finally
             {
@@ -355,10 +367,100 @@ namespace WpfApp
                     tableRepository.UpdateTableStatus(currentTableId, 1);
 
                     Bill currentBill = await billRepository.GetBill(currentBillId);
-                    currentBill.DateCheckOut = DateTime.Now;
-                    currentBill.Status = 1;
-                    billRepository.UpdateBill(currentBill);
-                    bool? result = new MessageBoxCustom("Pay success", MessageType.Confirmation, MessageButtons.Ok).ShowDialog();
+                   
+
+
+                    try
+                    {
+                        if (dgData.Items.Count > 0)
+                        {
+                            
+                            using (var folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog())
+                            {
+                                System.Windows.Forms.DialogResult result = folderBrowserDialog.ShowDialog();
+                                if (result == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowserDialog.SelectedPath))
+                                {
+                                    string folderPath = folderBrowserDialog.SelectedPath;
+                                    Table table = await tableRepository.GetTable(currentTableId);
+                                    Bill billInserted = currentBill;
+                                    DateTime checkInDate = billInserted.DateCheckIn;
+                                    string formattedCheckInDate = checkInDate.ToString("yyyy-MM-dd_HH-mm-ss");
+                                    string fileName = $"HoaDon_{table.TableName}_{formattedCheckInDate}.pdf";
+                                    string filePath = Path.Combine(folderPath, fileName);
+
+                                    using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.None))
+                                    {
+                                        Document doc = new Document(PageSize.A4, 25, 25, 30, 30);
+                                        PdfWriter writer = PdfWriter.GetInstance(doc, fs);
+                                        doc.Open();
+
+                                        // Font settings
+                                        string fontPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Fonts), "arial.ttf");
+                                        BaseFont baseFont = BaseFont.CreateFont(fontPath, BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
+                                        var titleFont = new Font(baseFont, 18, Font.BOLD);
+                                        var headerFont = new Font(baseFont, 12, Font.BOLD);
+                                        var bodyFont = new Font(baseFont, 12, Font.NORMAL);
+
+                                        // Title
+                                        Paragraph title = new Paragraph("Hóa Đơn Thanh Toán\n\n", titleFont);
+                                        title.Alignment = Element.ALIGN_CENTER;
+                                        doc.Add(title);
+
+                                        // Bill information
+                                        string formattedDateTime = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+                                        Paragraph billInfo = new Paragraph($"Số bàn: {table.TableName}\nNgày: {formattedDateTime}\n\n", bodyFont);
+                                        doc.Add(billInfo);
+
+                                        // Table
+                                        PdfPTable pdfTable = new PdfPTable(4);
+                                        pdfTable.WidthPercentage = 100;
+                                        pdfTable.SetWidths(new float[] { 30f, 20f, 25f, 25f });
+
+                                        // Header
+                                        pdfTable.AddCell(new PdfPCell(new Phrase("Tên đồ uống", headerFont)));
+                                        pdfTable.AddCell(new PdfPCell(new Phrase("Số lượng", headerFont)));
+                                        pdfTable.AddCell(new PdfPCell(new Phrase("Giá/đồ uống", headerFont)));
+                                        pdfTable.AddCell(new PdfPCell(new Phrase("", headerFont)));
+
+                                        // Data
+                                        foreach (BillInfo billInfoItem in dgData.Items)
+                                        {
+                                            pdfTable.AddCell(new PdfPCell(new Phrase(billInfoItem.IdDrinkNavigation.DrinkName, bodyFont)));
+                                            pdfTable.AddCell(new PdfPCell(new Phrase(billInfoItem.Count.ToString(), bodyFont)));
+                                            pdfTable.AddCell(new PdfPCell(new Phrase(billInfoItem.IdDrinkNavigation.Price.ToString("N0"), bodyFont)));
+                                            pdfTable.AddCell(new PdfPCell(new Phrase("", bodyFont))); // Empty cell for "Thao tác"
+                                        }
+
+                                        doc.Add(pdfTable);
+
+                                        // Total bill
+                                        Paragraph totalBillParagraph = new Paragraph($"\nTổng tiền: {TotalBill:N0} VND\n", bodyFont);
+                                        totalBillParagraph.Alignment = Element.ALIGN_RIGHT;
+                                        doc.Add(totalBillParagraph);
+
+                                        doc.Close();
+                                    }
+
+                                    new MessageBoxCustom("Xuất hóa đơn và thanh toán thành công", MessageType.Confirmation, MessageButtons.Ok).ShowDialog();
+                                    currentBill.DateCheckOut = DateTime.Now;
+                                    currentBill.Status = 1;
+                                    billRepository.UpdateBill(currentBill);
+                                }
+                                else
+                                {
+                                    new MessageBoxCustom("Vui lòng chọn thư mục hợp lệ", MessageType.Warning, MessageButtons.Ok).ShowDialog();
+                                }
+                            }
+                        }
+                        else
+                        {
+                            new MessageBoxCustom("Không có dữ liệu để xuất hóa đơn", MessageType.Warning, MessageButtons.Ok).ShowDialog();
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        new MessageBoxCustom($"Xuất hóa đơn thất bại: {ex.Message}", MessageType.Warning, MessageButtons.Ok).ShowDialog();
+                    } 
                     showBill(currentTableId);
                     LoadTable();
 
@@ -367,11 +469,14 @@ namespace WpfApp
             }
             catch (Exception ex)
             {
-                bool? result = new MessageBoxCustom("Pay fail", MessageType.Warning, MessageButtons.Ok).ShowDialog();
+                bool? result = new MessageBoxCustom("Thanh toán thất bại", MessageType.Warning, MessageButtons.Ok).ShowDialog();
             }
         }
 
         #endregion
+
+
+
 
 
         private async void Window_Loaded(object sender, RoutedEventArgs e)

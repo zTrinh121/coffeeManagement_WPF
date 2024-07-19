@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace BusinessObjects;
 
@@ -30,14 +29,13 @@ public partial class QuanLyQuanCafeContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=MTRINH\\SQL2019;Database=QuanLyQuanCafe;Integrated Security=True;TrustServerCertificate=True");
-
+        => optionsBuilder.UseSqlServer("Server=MTRINH\\SQL2019;Database= QuanLyQuanCafe;Integrated Security=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Account>(entity =>
         {
-            entity.HasKey(e => e.AccountId).HasName("PK__Account__349DA5A60965F99F");
+            entity.HasKey(e => e.AccountId).HasName("PK__Account__349DA5A686E162BB");
 
             entity.ToTable("Account");
 
@@ -51,7 +49,7 @@ public partial class QuanLyQuanCafeContext : DbContext
 
         modelBuilder.Entity<Bill>(entity =>
         {
-            entity.HasKey(e => e.BillId).HasName("PK__Bill__11F2FC6A8889F2D1");
+            entity.HasKey(e => e.BillId).HasName("PK__Bill__11F2FC6A53A108EC");
 
             entity.ToTable("Bill");
 
@@ -63,12 +61,12 @@ public partial class QuanLyQuanCafeContext : DbContext
             entity.HasOne(d => d.IdTableNavigation).WithMany(p => p.Bills)
                 .HasForeignKey(d => d.IdTable)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Bill__IdTable__4AB81AF0");
+                .HasConstraintName("FK__Bill__IdTable__38996AB5");
         });
 
         modelBuilder.Entity<BillInfo>(entity =>
         {
-            entity.HasKey(e => e.BillInfoId).HasName("PK__BillInfo__82266B235A78958F");
+            entity.HasKey(e => e.BillInfoId).HasName("PK__BillInfo__82266B238DFAB85C");
 
             entity.ToTable("BillInfo");
 
@@ -77,17 +75,17 @@ public partial class QuanLyQuanCafeContext : DbContext
             entity.HasOne(d => d.IdBillNavigation).WithMany(p => p.BillInfos)
                 .HasForeignKey(d => d.IdBill)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__BillInfo__IdBill__4BAC3F29");
+                .HasConstraintName("FK__BillInfo__IdBill__398D8EEE");
 
             entity.HasOne(d => d.IdDrinkNavigation).WithMany(p => p.BillInfos)
                 .HasForeignKey(d => d.IdDrink)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__BillInfo__IdDrin__4CA06362");
+                .HasConstraintName("FK__BillInfo__IdDrin__3A81B327");
         });
 
         modelBuilder.Entity<Drink>(entity =>
         {
-            entity.HasKey(e => e.DrinkId).HasName("PK__Drink__C094D3E80EAB534D");
+            entity.HasKey(e => e.DrinkId).HasName("PK__Drink__C094D3E838FAA284");
 
             entity.ToTable("Drink");
 
@@ -100,12 +98,12 @@ public partial class QuanLyQuanCafeContext : DbContext
             entity.HasOne(d => d.IdCategoryNavigation).WithMany(p => p.Drinks)
                 .HasForeignKey(d => d.IdCategory)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Drink__IdCategor__4D94879B");
+                .HasConstraintName("FK__Drink__IdCategor__3B75D760");
         });
 
         modelBuilder.Entity<DrinkCategory>(entity =>
         {
-            entity.HasKey(e => e.DrinkCategoryId).HasName("PK__DrinkCat__1C6320D2E20067DD");
+            entity.HasKey(e => e.DrinkCategoryId).HasName("PK__DrinkCat__1C6320D291AD6DF9");
 
             entity.ToTable("DrinkCategory");
 
@@ -116,7 +114,7 @@ public partial class QuanLyQuanCafeContext : DbContext
 
         modelBuilder.Entity<Table>(entity =>
         {
-            entity.HasKey(e => e.TableId).HasName("PK__Table__7D5F01EEA85E2237");
+            entity.HasKey(e => e.TableId).HasName("PK__Table__7D5F01EE138580A6");
 
             entity.ToTable("Table");
 

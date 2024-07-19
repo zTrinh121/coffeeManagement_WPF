@@ -8,6 +8,21 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="LoginWindow" Height="450" Width="800">
+    <Window.Resources>
+        <ControlTemplate x:Key="ValidationErrorTemplate">
+            <StackPanel>
+                <AdornedElementPlaceholder x:Name="textBox" />
+                <ItemsControl ItemsSource="{Binding}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" Foreground="Red" />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ControlTemplate>
+    </Window.Resources>
+
     <Grid>
 
         <Grid.ColumnDefinitions>
@@ -20,19 +35,43 @@
 
         <!-- Right Side Login Form -->
         <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Background="White" Width="300" Height="350" Margin="20" >
-            <TextBlock Text="Đăng Nhập" FontSize="24" FontWeight="Bold" Margin="10" HorizontalAlignment="Center" />
+            <TextBlock
+                
+                Text="Đăng Nhập" FontSize="24" FontWeight="Bold" Margin="10" HorizontalAlignment="Center" />
             <TextBlock Text="Tài khoản" Margin="10,20,10,5" />
-            <TextBox x:Name="txtUserName" Margin="10,5,10,10" Height="30" />
+            <TextBox 
+                Text="{Binding Username, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                x:Name="txtUserName" Margin="10,5,10,10" Height="30" />
 
             <TextBlock Text="Mật khẩu" Margin="10,10,10,5" />
-            <PasswordBox x:Name="txtPassword" Margin="10,5,10,10" Height="30" />
-
-            <TextBlock Text="Quên mật khẩu?" Margin="10,5,10,10" HorizontalAlignment="Right" Foreground="Gray" />
+            <PasswordBox
+                local:PasswordHelper.Attach="True"
+                local:PasswordHelper.Password="{Binding Password, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}" 
+                x:Name="txtPassword" Margin="10,5,10,10" Height="30"
+            />
+            
+           
+            <!--<TextBlock Text="Quên mật khẩu?" Margin="10,5,10,10" HorizontalAlignment="Right" Foreground="Gray" />-->
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10,20,10,10">
                 <Button x:Name="btnLogin" Click="LoginBtn_Click" Content="Đăng nhập" Width="108" Height="40" Margin="5" Background="#FFC6A48A" BorderBrush="white" Foreground="White" />
                 <Button x:Name="CancelBtn" Click="CancelBtn_Click" Content="Thoát" Width="100" BorderBrush="white" Height="40" Margin="5" Background="Gray" Foreground="White" />
             </StackPanel>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <StackPanel>
+                        <AdornedElementPlaceholder x:Name="textBox" />
+                        <ItemsControl ItemsSource="{Binding}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding ErrorContent}" Foreground="Red" />
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+
         </StackPanel>
 
 

@@ -30,10 +30,12 @@ namespace DataAccessLayer
             Account account;
             try
             {
+                
                 account = await _context.Accounts.SingleOrDefaultAsync(x => x.UserName == userName);
             }
             catch (Exception ex)
             {
+                Console.WriteLine($"An error occurred while fetching the account: {ex.Message}");
                 throw new Exception(ex.Message);
             }
             return account;

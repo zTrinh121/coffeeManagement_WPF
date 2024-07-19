@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KjQJ31ccC5RoJSJ6AoeOLwODjM5F0uSfVscKjWoIB+UANmfBZCQfGV2V3vaVTvjSoWbZiDhlPdYTVvK4nHM9dQ==",
+  "dgSpecHash": "aQK7fvRVivV2Kaluc5x4WHbvjxgDLbc4Xal/aNlVSFqJQl+KYd6Xi3J/QP6JIsApDfqibRADdVjiU12wYlLcqQ==",
   "success": true,
   "projectFilePath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\WpfApp\\WpfApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FPT SHOP\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\FPT SHOP\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\FPT SHOP\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
+    "C:\\Users\\FPT SHOP\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512",
     "C:\\Users\\FPT SHOP\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\FPT SHOP\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
     "C:\\Users\\FPT SHOP\\.nuget\\packages\\materialdesigncolors\\2.0.0\\materialdesigncolors.2.0.0.nupkg.sha512",
@@ -74,6 +76,16 @@
     "C:\\Users\\FPT SHOP\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.13.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

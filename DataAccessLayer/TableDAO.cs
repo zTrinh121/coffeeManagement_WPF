@@ -12,7 +12,7 @@ namespace DataAccessLayer
             Table tableFood;
             try
             {
-                tableFood = await _context.Tables.SingleOrDefaultAsync(x => x.TableId == tableId);
+                tableFood = await _context.Tables.AsNoTracking().SingleOrDefaultAsync(x => x.TableId == tableId);
             }
             catch (Exception ex)
             {
@@ -39,7 +39,7 @@ namespace DataAccessLayer
             List<Table> tables;
             try
             {
-                tables = await _context.Tables.ToListAsync();
+                tables = await _context.Tables.AsNoTracking().ToListAsync();
             }
             catch (Exception ex)
             {
@@ -69,6 +69,7 @@ namespace DataAccessLayer
                 await _context.Database.ExecuteSqlRawAsync(
                     "UPDATE [dbo].[Table] SET TableStatus = {0} WHERE TableId = {1}",
                     newStatus, tableId);
+                _context.ChangeTracker.Clear();
             }
             catch (Exception ex)
             {
