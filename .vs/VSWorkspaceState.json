@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WpfApp"
+    "\\BusinessObjects",
+    "\\DataAccessLayer",
+    "\\WpfApp",
+    "\\WpfApp\\obj"
   ],
-  "SelectedNode": "\\WpfApp\\MainWindow.xaml.cs",
+  "SelectedNode": "\\BusinessObjects\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

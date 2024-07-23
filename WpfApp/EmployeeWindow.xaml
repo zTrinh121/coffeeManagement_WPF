@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="EmployeeWindow"        WindowStartupLocation="CenterScreen"
+        Title="EmployeeWindow" WindowStartupLocation="CenterScreen"
         Height="720" Width="1080"
         WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
@@ -15,40 +15,46 @@
         TextElement.FontSize="14"
         FontFamily="{materialDesign:MaterialDesignFont}"
         >
+    <Window.Resources>
+        <Style x:Key="MessageBoxStyle" TargetType="local:MessageBoxCustom">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
     <Grid OpacityMask="White">
 
         <Button x:Name="CloseBtn" Click="CloseBtn_Click" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
- BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Margin="1021,0,0,683" Width="49">
+BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Margin="1021,0,0,683" Width="49">
             <StackPanel Margin="-5">
                 <materialDesign:PackIcon Kind="CloseThick"/>
             </StackPanel>
         </Button>
-        <DockPanel>
+        <DockPanel RenderTransformOrigin="0.472,0.496">
             <Menu DockPanel.Dock="Top" HorizontalAlignment="Left">
                 <MenuItem Header="_Tài khoản">
                     <MenuItem x:Name="mnPersonal" Header="_Thông tin cá nhân" Click="mnPersonal_Click"
-                              Icon="{materialDesign:PackIcon Kind=Account}" />
+                             Icon="{materialDesign:PackIcon Kind=Account}" />
                     <MenuItem x:Name="mnExit" 
-                        Header="Exit" Click="mnExit_Click"
-                          Icon="{materialDesign:PackIcon Kind=ExitToApp}"
-                          InputGestureText="Ctrl+E" />
+                       Header="Exit" Click="mnExit_Click"
+                         Icon="{materialDesign:PackIcon Kind=ExitToApp}"
+                         InputGestureText="Ctrl+E" />
                 </MenuItem>
             </Menu>
             <TextBox AcceptsReturn="True" />
             <StackPanel Width="87" Height="649" Orientation="Horizontal" HorizontalAlignment="Left">
-                <materialDesign:Card Margin="10" UniformCornerRadius="15">
+                <materialDesign:Card Margin="10" UniformCornerRadius="15" Height="627">
                     <ListView Margin="0 15">
                         <ListViewItem HorizontalAlignment="Center" Margin="0 10" >
-                            <Button x:Name="menu" Click="menu_Click" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
-                             BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                            <Button x:Name="menu" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
+                            BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="Silverware"/>
                                 </StackPanel>
                             </Button>
                         </ListViewItem>
-                        <ListViewItem HorizontalAlignment="Center" Margin="0" >
-                            <Button x:Name="drink" Click="drink_Click"  Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
-                             BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                        <ListViewItem HorizontalAlignment="Center" Margin="0">
+                            <Button x:Name="drink" Click="drink_Click" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
+                            BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="Beer"/>
                                 </StackPanel>
@@ -56,15 +62,15 @@
                         </ListViewItem>
                         <ListViewItem HorizontalAlignment="Center" Margin="0 10">
                             <Button x:Name="report" Click="report_Click" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
-                             BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                            BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="ChartBox"/>
                                 </StackPanel>
                             </Button>
                         </ListViewItem>
                         <ListViewItem HorizontalAlignment="Center" Margin="0">
-                            <Button x:Name="employee" Background="#FFE3E3E3" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
-                             BorderBrush="{x:Null}"  Foreground="Black">
+                            <Button x:Name="employee" Click="employee_Click" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
+                            BorderBrush="{x:Null}" Background="#FFE3E3E3" Foreground="Black">
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="AccountMultiple"/>
                                 </StackPanel>
@@ -72,20 +78,106 @@
                         </ListViewItem>
                         <ListViewItem HorizontalAlignment="Center" Margin="0 10">
                             <Button x:Name="logout" Click="logout_Click" Style="{StaticResource MaterialDesignFloatingActionButton}" HorizontalAlignment="Left"
-                             BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                            BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="ExitToApp"/>
                                 </StackPanel>
                             </Button>
                         </ListViewItem>
                     </ListView>
-
                 </materialDesign:Card>
             </StackPanel>
         </DockPanel>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Margin="92,78,553,538">
+            <WrapPanel x:Name="TableStackPanel" Orientation="Vertical">
+                <ItemsControl ItemsSource="{Binding Accounts}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <materialDesign:Card Margin="10" Width="400" Height="180">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding UserName}" FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding Type}" />
+                                    <Button x:Name="ViewDetail" Content="Xem chi tiết thông tin" Height="50" Click="ViewDetail_Click" Tag="{Binding AccountId}"/>
+                                </StackPanel>
+                            </materialDesign:Card>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </WrapPanel>
+        </ScrollViewer>
 
+        <StackPanel Margin="527,68,10,139">
+            <materialDesign:Card Margin="10" UniformCornerRadius="15">
 
+                <DataGrid Height="435" x:Name="dgData"
+                   ItemsSource="{Binding AccountCollection}"
+                   AutoGenerateColumns="False"
+                         CanUserAddRows="False"
+                     SelectionChanged="DataGrid_SelectionChanged"
+                     Background="White" HorizontalAlignment="Center" Width="510" RenderTransformOrigin="-0.301,0.501">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Tên người dùng" Binding="{Binding UserName}" />
+                        <DataGridTextColumn Header="Vai trò" Binding="{Binding Type}" />
+                        <DataGridTemplateColumn Header="Xoá">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Xóa" Click="btnDel_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <!--<DataGridTemplateColumn Header="Chỉnh sửa">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Chỉnh sửa" Click="btnModify_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>-->
+                    </DataGrid.Columns>
+                </DataGrid>
+
+            </materialDesign:Card>
+            <TextBlock x:Name="BillHeader" TextWrapping="Wrap" FontSize="20" Width="263" Height="32"><Run Text="Danh sách"/><Run Language="ja-jp" Text=" nhân viên quán cf"/></TextBlock>
+        </StackPanel>
+        <StackPanel Margin="92,78,540,452">
+            <TextBlock Text="Thông tin nhân viên mới:" FontSize="36" Margin="10"/>
+            <TextBlock Text="Tên người dùng:" FontSize="24"/>
+            <TextBox x:Name="txtUserName" Width="200" Margin="120,-36,0,0"/>
+            <TextBlock Text="Vai trò (Type):" FontSize="24" Margin="0,20,0,0"/>
+            <TextBox x:Name="txtType" Width="200" Margin="120,-24,5,5"/>
+        </StackPanel>
+        <!--<StackPanel Margin="92,78,540,538">
+            <TextBlock Margin="0,120,0,0" Text="Lịch sử hoá đơn:">
+            </TextBlock>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <WrapPanel x:Name="TableStackPanel" Orientation="Vertical">
+                    <ItemsControl ItemsSource="{Binding BillInfos}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <materialDesign:Card Margin="10" Width="400" Height="180">
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding dỉn}" FontWeight="Bold"/>
+                                        <TextBlock Text="{Binding Type}" />
+                                        <Button x:Name="ViewDetail" Content="Xem chi tiết thông tin" Height="50" Click="ViewDetail_Click" Tag="{Binding AccountId}"/>
+                                    </StackPanel>
+                                </materialDesign:Card>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </WrapPanel>
+            </ScrollViewer>
+        </StackPanel>-->
+        <!--<StackPanel Margin="10">
+            <TextBlock Text="Tên người dùng:"/>
+            <TextBox x:Name="txtUserName" Width="200" Margin="5"/>
+            <TextBlock Text="Vai trò (Type):"/>
+            <TextBox x:Name="txtType" Width="200" Margin="5"/>
+        </StackPanel>-->
+
+        <StackPanel Margin="540,586,10,10" Background="White">
+            <Button x:Name="btnAddnv" Content="Thêm nhân viên" Click="btnAddnv_Click" />
+            <Button x:Name="btnDel" Click="btnDel_Click" Content="Xoá nhân viên" Width="528" />
+            <!--<Button x:Name="btnModify" Click="btnModify_Click" Content="Cập nhật" Width="522" />-->
+        </StackPanel>
     </Grid>
 
 </Window>
-

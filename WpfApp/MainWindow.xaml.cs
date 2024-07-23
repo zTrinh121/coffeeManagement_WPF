@@ -257,6 +257,7 @@ namespace WpfApp
                 if (cboDrink.SelectedItem != null && !string.IsNullOrWhiteSpace(txtNumber.Text))
                 {
                     Drink selectedDrink = cboDrink.SelectedItem as Drink;
+
                     if (selectedDrink != null && int.TryParse(txtNumber.Text, out int count))
                     {
                         //check table has people or not
@@ -427,7 +428,6 @@ namespace WpfApp
             PersonalProfileWindow personallProfileWindow = new PersonalProfileWindow(account);
             personallProfileWindow.Show();
             this.Close();
-
         }
 
         private void mnExit_Click(object sender, RoutedEventArgs e)

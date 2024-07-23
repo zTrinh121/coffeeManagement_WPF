@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\Repositories\\Repositories.csproj": {}
+    "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\BusinessObjects.csproj": {
+    "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\FPT SHOP\\.nuget\\packages\\",
-        "outputPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\obj\\",
+        "projectPath": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FPT SHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,24 +81,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\FPT SHOP\\.nuget\\packages\\",
-        "outputPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\DataAccessLayer\\obj\\",
+        "projectPath": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FPT SHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -106,14 +107,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\BusinessObjects.csproj"
+              "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }
@@ -148,24 +150,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\Repositories\\Repositories.csproj": {
+    "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\FPT SHOP\\.nuget\\packages\\",
-        "outputPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\Repositories\\obj\\",
+        "projectPath": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FPT SHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -174,17 +176,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\BusinessObjects\\BusinessObjects.csproj"
+              "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\BusinessObjects\\BusinessObjects.csproj"
               },
-              "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\FPT_UNI\\SU24\\PRN212\\Code\\CoffeeManagement\\ProductManagement_NguyenThiMaiTrinh_De180146\\DataAccessLayer\\DataAccessLayer.csproj"
+              "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\FPT\\PRN212-SU24\\Group_Project\\coffeeManagement_WPF\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -219,7 +222,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

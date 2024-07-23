@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Repositories
-build_property.ProjectDir = C:\FPT_UNI\SU24\PRN212\Code\CoffeeManagement\ProductManagement_NguyenThiMaiTrinh_De180146\Repositories\
+build_property.ProjectDir = D:\FPT\PRN212-SU24\Group_Project\coffeeManagement_WPF\Repositories\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccessLayer
@@ -41,14 +40,21 @@ namespace DataAccessLayer
 
         public async Task InsertAccount(Account account)
         {
-            try
+            if (account != null)
             {
-                _context.Accounts.Add(account);
-                await _context.SaveChangesAsync();
+                try
+                {
+                    _context.Accounts.Add(account);
+                    await _context.SaveChangesAsync();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
             }
-            catch (Exception ex)
+            else
             {
-                throw new Exception(ex.Message);
+                throw new ArgumentNullException(nameof(account));
             }
         }
 
@@ -68,29 +74,42 @@ namespace DataAccessLayer
 
         public async Task UpdateAccount(Account account)
         {
-            try
+            if (account != null)
             {
-                _context.Accounts.Update(account);
-                await _context.SaveChangesAsync();
+                try
+                {
+                    _context.Accounts.Update(account);
+                    await _context.SaveChangesAsync();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
             }
-            catch (Exception ex)
+            else
             {
-                throw new Exception(ex.Message);
+                throw new ArgumentNullException(nameof(account));
             }
         }
 
         public async Task DeleteAccount(Account account)
         {
-            try
+            if (account != null)
             {
-                _context.Accounts.Remove(account);
-                await _context.SaveChangesAsync();
+                try
+                {
+                    _context.Accounts.Remove(account);
+                    await _context.SaveChangesAsync();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
             }
-            catch (Exception ex)
+            else
             {
-                throw new Exception(ex.Message);
+                throw new ArgumentNullException(nameof(account));
             }
         }
     }
-
 }
